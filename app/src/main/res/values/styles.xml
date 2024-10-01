@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //color principal
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="colorPrimaryDark">#388E3C</item>
+        <item name="colorAccent">#FFC107</item>
+    </style>
+
+    //color del boton gris claro
+    <style name="EditTextStyle">
+        <item name="android:background">#E0E0E0</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+   //color del boton (gris claro)
+    <style name="ButtonStyle">
+        <item name="android:backgroundTint">#424242</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    //estilo de imagen, si se agrega color se tapa la imagen por completo xd
+    <style name="ImageViewStyle">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+</resources>
